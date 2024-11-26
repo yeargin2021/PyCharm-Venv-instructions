@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Setting up a Virtual Environment in PyCharm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .step {
+            margin-bottom: 30px;
+        }
+        .step span {
+            font-weight: bold;
+            color: #3f51b5;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <h1>Setting up a Virtual Environment in PyCharm</h1>
+
+    <div class="step">
+        <span>Step 1:</span>
+        <p>Open the PyCharm Preferences dialog. You can access this by clicking PyCharm in the menubar, then selecting Preferences....</p>
+    </div>
+
+    <div class="step">
+        <span>Step 2:</span>
+        <p>In the sidebar, under the Project section, select Python Interpreter.</p>
+    </div>
+
+    <div class="step">
+        <span>Step 3:</span>
+        <p>Click on the + symbol located at the top-right of the Python Interpreter pane.</p>
+    </div>
+
+    <div class="step">
+        <span>Step 4:</span>
+        <p>In the pop-up window, choose Virtualenv Environment.</p>
+    </div>
+
+    <div class="step">
+        <span>Step 5:</span>
+        <p>You need to specify the location of the new virtual environment in your project. Do not inherit global packages from the system interpreter (unless there's a specific requirement) and use whatever Python interpreter you'd like. Then, click OK.</p>
+    </div>
+
+    <div class="step">
+        <p>Your virtual environment is now set up. You can select it from the interpreter's list under 'Python Interpreter' to use in your project.</p>
+    </div>
+
+    <div class="note">
+        <p>Remember: Always activate the project's virtual interpreter before installing any package to ensure it's not installed on your global Python interpreter. These local packages are isolated from the global Python interpreter making it easier to manage dependencies and avoid conflicts between packages.</p>
+        <p>Please note these steps apply specifically to PyCharm Professional Edition.</p>
+    </div>
+</body>
+</html>
